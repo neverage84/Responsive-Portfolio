@@ -1,21 +1,20 @@
 * {
     box-sizing: border-box;
 }
+/*Set up the container as absolute and span the width of the page */
 
-header {
-    top: 0;
-    position:fixed;
-    display:inline-block;
-    padding:20px;
-    margin-bottom:20px;
+.container {
+    position: absolute;
+    width:100%;
 }
+
 .Name {float:left;
 
 }
 .NavSec {float: left;
 }
 
-#YourName { background-color: #4aaaa5;
+.YourName { background-color: #4aaaa5;
             padding:20px;
             color: #ffffff;
             margin-left: 200px;
