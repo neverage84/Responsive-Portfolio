@@ -11,13 +11,11 @@
 }
 
 header {
-    border-bottom-color: #cccccc;
-    border-bottom: solid 1px;
+    border-bottom: solid 5px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100%; 
     position: fixed; /*The header should be in view when scrolling*/
     top:0; 
-    
     width: 100%;
    
 }
@@ -27,30 +25,29 @@ header {
        margin-bottom: 0px;
 
 }
-.NavSec {float: left;
-}
+
+         
+
+
 
 .YourName { background-color: #4aaaa5;
             padding:20px;
             color: #ffffff;
-            
-            margin-right: 200px;
-            float: left;
-
-    
+            margin-right: 200px; /*Pushes out the list a bit*/
+            float: left;   
 
 }
 
 li {
+    display: inline-block;
     list-style-type: none;
     text-align: center;
     padding: 14px 16px;
     
-
 }
-    li a:hover {
+li a:hover {
         background-color: #4aaaa5;
-        text-decoration: none;
+       text-decoration: none;
     }
 
 
