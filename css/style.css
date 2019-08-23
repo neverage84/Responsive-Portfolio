@@ -4,6 +4,7 @@
 /*Set up the container as absolute and span the width of the page */
 
 .container {
+    padding: 20px;
     position: absolute;
     width:100%;
 }
