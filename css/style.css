@@ -4,12 +4,27 @@
 /*Set up the container as absolute and span the width of the page */
 
 .container {
+    height: 75px;
     padding: 20px;
     position: absolute;
     width:100%;
 }
 
+header {
+    border-bottom-color: #cccccc;
+    border-bottom: solid 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%; 
+    position: fixed; /*The header should be in view when scrolling*/
+    top:0; 
+    
+    width: 100%;
+   
+}
+
 .Name {float:left;
+       margin-left: 200px;
+       margin-bottom: 0px;
 
 }
 .NavSec {float: left;
@@ -18,7 +33,7 @@
 .YourName { background-color: #4aaaa5;
             padding:20px;
             color: #ffffff;
-            margin-left: 200px;
+            
             margin-right: 200px;
             float: left;
 
