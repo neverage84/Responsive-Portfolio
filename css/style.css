@@ -2,24 +2,30 @@
     box-sizing: border-box;
 }
 
+.background {
+    margin-top: 100px;
+}
 .Navigation {
     position: fixed;
     
-    display: inline-block;
+    display: block;
+    
 
 }
 
 li {
-    float:right;
+    float: right;
     list-style-type: none;
     text-align: center;
     padding: 14px 16px;
+    
 
 }
     li a:hover {
         background-color: #4aaaa5;
+        text-decoration: none;
     }
-}
+
 
 ul {
     list-style-type: none;
@@ -30,7 +36,11 @@ ul {
             background-color: #4aaaa5;
             color: #ffffff;
             margin-left: 100px;
-            float: left;
+            margin-right: 200px;
+            
     
 }
+
+
+
 
