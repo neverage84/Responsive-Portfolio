@@ -7,18 +7,13 @@ body {
    
 }
 /*Set up the container as absolute and span the width of the page */
-.container {
-    height: 75px;
-    padding: 20px;
-    position: absolute;
-    width:100%;
-}
+
 
 header {
     background-color: #ffffff;
     border-bottom: solid 1px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow: auto; 
+     
     position: fixed; /*The header should be in view when scrolling*/
     top:0; 
     width: 100%;
@@ -29,8 +24,12 @@ header {
 
 .Name {float:left;
        margin-left: 200px;
-       margin-bottom: 0px;
+       margin-top: 30px;
+       
 
+}
+nav {
+    bottom:0;
 }
 .NavSec {
        float: left;
@@ -41,11 +40,15 @@ header {
 .YourName { background-color: #4aaaa5;
             padding:20px;
             color: #ffffff;
-            margin-right: 200px; /*Pushes out the list a bit*/
-            float: left;   
+            float: left;  
+            margin-bottom: 0; 
 
 }
-
+ ul {
+     float: right;
+     margin-bottom: 0;
+     
+ }
 li {
     display: inline-block;
     list-style-type: none;
