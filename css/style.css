@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/vintage-concrete.png");/*Honestly not sure why this doesn't work*/
+    background-image: url("../images/gaming-pattern.png");/*Honestly not sure why this doesn't work*/
    
 }
 /*Set up the container as absolute and span the width of the page */
@@ -79,6 +79,7 @@ a:hover {
     background-color: #ffffff;
     border: solid 2px #cccccc;
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
     
 }
 
@@ -92,6 +93,10 @@ color: #4aaaa5;
 font-family: Georgia, 'Times New Roman', Times, serif;
 border-bottom: solid 2px #cccccc;
 padding: 10px;
+}
+
+#Bio1 {
+    margin-top: 30px;
 }
 
 
