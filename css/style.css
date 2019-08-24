@@ -22,7 +22,7 @@ header {
     position: fixed; /*The header should be in view when scrolling*/
     top:0; 
     width: 100%;
-    margin-left: 0;
+    left: 0; /*For some reason there's a gap on the left unless I put this- even though my width is 100% */
    
    
 }
