@@ -18,7 +18,7 @@ header {
     top:0; 
     width: 100%;
     left: 0; /*For some reason there's a gap on the left unless I put this- even though my width is 100% */ 
-   
+    
 }
 
 .container {
@@ -75,11 +75,8 @@ a:hover {
     }
 
 .maincontent {
+    margin-top: 130px;
     background-color: #ffffff;
-    width: 920px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 200px;
     border: solid 1px #cccccc;
 }
 
