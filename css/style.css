@@ -52,13 +52,14 @@ li {
     text-align: center;
     padding: 14px 16px;
     color: #cccccc;
-    border-right: #cccccc;
     
     
 }
 
 a {
     text-decoration: none;
+    color: #cccccc;
+    
 }
 
 a:hover {
