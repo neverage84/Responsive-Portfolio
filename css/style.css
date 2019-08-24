@@ -78,6 +78,7 @@ a:hover {
     margin-top: 130px;
     background-color: #ffffff;
     border: solid 2px #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -86,6 +87,12 @@ a:hover {
     margin: 0 auto;
 }
 
+.TopMainContent {
+color: #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-bottom: solid 2px #cccccc;
+padding: 10px;
+}
 
 
 
