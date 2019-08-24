@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
 }
-/*Set up the container as absolute and span the width of the page */
 
+body {
+    background-image: url("/images/stripes-light.png");
+    background-color: bisque;
+}
+/*Set up the container as absolute and span the width of the page */
 .container {
     height: 75px;
     padding: 20px;
@@ -11,12 +15,15 @@
 }
 
 header {
-    border-bottom: solid 5px #cccccc;
+    background-color: #ffffff;
+    border-bottom: solid 1px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100%; 
+    overflow: auto; 
     position: fixed; /*The header should be in view when scrolling*/
     top:0; 
     width: 100%;
+    margin-left: 0;
+   
    
 }
 
@@ -25,9 +32,10 @@ header {
        margin-bottom: 0px;
 
 }
-
+.NavSec {
+       float: left;
          
-
+}
 
 
 .YourName { background-color: #4aaaa5;
@@ -43,12 +51,25 @@ li {
     list-style-type: none;
     text-align: center;
     padding: 14px 16px;
+    color: #cccccc;
+    border-right: #cccccc;
+    text-decoration: none;
     
 }
-li a:hover {
+
+a:hover {
         background-color: #4aaaa5;
-       text-decoration: none;
+       
     }
+
+.maincontent {
+    background-color: #ffffff;
+    width: 920px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    border: solid 1px #cccccc;
+}
 
 
 
