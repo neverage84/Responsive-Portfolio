@@ -3,8 +3,8 @@
 }
 
 body {
-    background-image: url("/images/stripes-light.png");
-    background-color: bisque;
+    background-image: url("../images/halftone-yellow.png");/*Honestly not sure why this doesn't work*/
+   
 }
 /*Set up the container as absolute and span the width of the page */
 .container {
@@ -53,8 +53,12 @@ li {
     padding: 14px 16px;
     color: #cccccc;
     border-right: #cccccc;
-    text-decoration: none;
     
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
