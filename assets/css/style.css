@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/vintage-concrete.png");/*Honestly not sure why this doesn't work*/
+    background-image: url("../../assets/images/gaming-pattern.png");/*Honestly not sure why this doesn't work*/
    
 }
 /*Set up the container as absolute and span the width of the page */
@@ -114,7 +114,7 @@ padding: 10px;
     background-color: #666666;
     border-top: solid 6px #4aaaa5;
     padding: 30px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     left:0;
