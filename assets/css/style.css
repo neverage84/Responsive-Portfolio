@@ -198,7 +198,7 @@ input {
     background-color: #666666;
     border-top: solid 6px #4aaaa5;
     padding: 30px;
-    position: relative;
+    position: relative; /*When scrolling only relative allows*/
     bottom: 0;
     width: 100%;
     left:0;
