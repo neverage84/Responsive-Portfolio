@@ -123,8 +123,24 @@ padding: 10px;
     font-size: 12px;
 
 }
-            
+
+#Form1{
+    margin-top: 30px;
+}
+input {
+    width: 100%;
     
+}
+
+#NameAndEmail {
+    height: 25px;
+}
+
+#MessageBox {
+    height: 200px;
+}
+
+
 
 
 
