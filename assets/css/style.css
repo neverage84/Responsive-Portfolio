@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../../assets/images/gaming-pattern.png");/*Honestly not sure why this doesn't work*/
+    background-image: url("../../assets/images/vintage-concrete.png");/*Honestly not sure why this doesn't work*/
    
 }
 /*Set up the container as absolute and span the width of the page */
@@ -159,11 +159,54 @@ input {
 .smallwrapper {
     width: 760px;
     margin: 0 auto;
+    overflow: auto;
 }
 
+#PortfolioRow1 {
+    float:left;
+    
+    
+}
 
+.images {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
 
+.ImagePos {
+    position:relative;
+    float: left;
+}
 
+.centered {
+    position: absolute;
+    bottom: 35px;
+    
+    color: #ffffff;
+    background-color: #4aaaa5;
+    opacity: .75;
+    text-align: center;
+    width: 260px;
+    line-height: 200%;
+    font-size: 24px;
+    left: 20px;
+    
+}
 
+.BottomP {
+    background-color: #666666;
+    border-top: solid 6px #4aaaa5;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
 
 
