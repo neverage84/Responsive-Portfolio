@@ -150,6 +150,16 @@ input {
             float: left;
 }
 
+.smallcontainer {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.smallwrapper {
+    width: 760px;
+    margin: 0 auto;
+}
+
 
 
 
