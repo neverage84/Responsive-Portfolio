@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../../assets/images/vintage-concrete.png");/*Honestly not sure why this doesn't work*/
+    background-image: url("../../assets/images/retina_wood_@2X.png");/*Honestly not sure why this doesn't work*/
    
 }
 /*Set up the container as absolute and span the width of the page */
@@ -73,8 +73,10 @@ a {
 a:hover {
         background-color: #4aaaa5;
         padding: 10px;
+        
        
     }
+
 
 .maincontent {
     margin-top: 130px;
@@ -152,20 +154,26 @@ input {
 }
 
 .smallcontainer {
-    width: 820px;
+    width: 900px;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .smallwrapper {
-    width: 760px;
+    width: 900px;
     margin: 0 auto;
     overflow: auto;
 }
 
 #PortfolioRow1 {
     float:left;
-    
-    
+    margin-left: 10px;
+      
+}
+
+#PortfolioRow2 {
+    float: left;
+   margin-left: 10px;
 }
 
 .images {
