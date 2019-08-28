@@ -217,4 +217,31 @@ input {
 
 }
 
+@media screen and (max-width:980px) {
+    body {
+        background-image: url("../images/symphony.png");
+    }
+.container .wrapper .TopMainContent {
+    width: 100%;
+}
 
+}
+
+
+@media screen and (max-width:768px) {
+    body {
+        background-image: url("../images/purty_wood.png");
+    }
+.container .wrapper .TopMainContent {
+    width: 100%;
+
+}
+
+@media screen and (max-width:640px) {
+    body {
+        background-image: url("../images/purty_wood.png");
+    }
+.container .wrapper .TopMainContent {
+    width: 100%;
+
+}
