@@ -201,7 +201,7 @@ input {
     position: relative; /*When scrolling only relative allows*/
     bottom: 0;
     width: 100%;
-    left:0;
+    left: 0;
     text-align: center;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
