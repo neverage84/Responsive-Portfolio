@@ -118,8 +118,9 @@ padding: 10px;
     padding: 30px;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    left:0;
     text-align: center;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -221,27 +222,45 @@ input {
     body {
         background-image: url("../images/symphony.png");
     }
-.container .wrapper .TopMainContent {
+.container, .wrapper, .TopMainContent, .maincontent {
     width: 100%;
 }
 
+.Bottom{
+    position: relative;
 }
+}
+
 
 
 @media screen and (max-width:768px) {
     body {
         background-image: url("../images/purty_wood.png");
     }
-.container .wrapper .TopMainContent {
+.container, .wrapper, .TopMainContent, .maincontent {
     width: 100%;
 
 }
 
+.maincontent {
+    margin-top: 300px;
+}
+.Bottom{
+    position: relative;
+}
+}
+
 @media screen and (max-width:640px) {
     body {
-        background-image: url("../images/purty_wood.png");
+        background-image: url("../images/bright_squares.png");
     }
-.container .wrapper .TopMainContent {
+.container, .wrapper, .TopMainContent, .maincontent{
     width: 100%;
-
+}
+.Bottom{
+    position: relative;
+}
+header {
+    position: static;
+}
 }
