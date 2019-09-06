@@ -13,7 +13,7 @@ header {
     background-color: #ffffff;
     border-bottom: solid 1.5px #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-     
+     overflow: auto;
     position: fixed; /*The header should be in view when scrolling*/
     top:0; 
     width: 100%;
@@ -78,7 +78,7 @@ a:hover {
     }
 
 
-.Maincontent {
+.maincontent {
     margin-top: 130px;
     background-color: #ffffff;
     border: solid 2px #dddddd;
@@ -246,7 +246,7 @@ input {
 .Bottom{
     position: relative;
 }
-
+}
 
 @media screen and (max-width:640px) {
     body {
@@ -261,4 +261,5 @@ input {
 header {
     position: static;
 }
+
 }
