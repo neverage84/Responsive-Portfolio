@@ -1,66 +1,60 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en-us">
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
 
-<!--Starting with top div-->
-<div class="TopPart">
-        <header>  
-            <!--Container for 960px box centered horizontally-->
-            <div class="container">
-                <!--Here's my name-->
-                <h1 class="YourName">Noelle Everage</h1>
-                <!--Breaking out Nav Section-->
-                <nav class="Navigation">
-                    <ul>
-                    <li class="About"><a href="index.html">About</a></li>
-                    <li><p>|</p></li>
-                    <li class="Portfolio"><a href="portfolio.html">Portfolio</a></li>
-                    <li><p>|</p></li>
-                    <li class="Contact"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>        
-            </div>
-        </header>
-     </div>
+<div class="wrapper">
 
-
-<div class="container">
-    <div class="maincontent">
-        <div class="wrapper">
-            <div class="TopMainContent">
-                <h1 class="AboutMe">Contact</h1>
-            </div>
-            <section id="Form1"> <!--Forms for input later-->
-                <form>
-                Name
-                <br>
-                <input id="NameAndEmail" type="text" name="FullName">
-                <br>
-                <br>
-                Email
-                <br>
-                <input id="NameAndEmail" type="text" name="Email">
-                <br>
-                <br>
-                Message
-                <br>
-                <input id="MessageBox" type="text" name="Message">
-                <p id="Submit">Submit</p>
-                </form>
-                <br>
-                
-            </section>
-        </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </main>
+  <div class="push"></div>
 </div>
 
-<footer class="Bottom">Copyright ©</footer>
-
+  <footer>
+    <div class="container">
+      &copy; Copyright
+    </div>
+  </footer>
 </body>
-
 </html>
